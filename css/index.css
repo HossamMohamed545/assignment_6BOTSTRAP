@@ -59,7 +59,8 @@ header {
 #section4 > div > div:hover div > img {
   transform: scale(1.5);
 }
-#section5 {
+#section5,
+#section7 {
   height: 600px;
   background-image: url(../image/overlay-bg.jpg);
   background-repeat: no-repeat;
@@ -71,6 +72,9 @@ header {
   margin-top: 10%;
 }
 
+.custom-shadow {
+   box-shadow: inset 0 30px 30px -20px rgba(0, 0, 0, 0.15) !important;
+}
 .recW15H15 {
   width: 20px !important;
   height: 20px !important;
