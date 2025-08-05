@@ -1,0 +1,129 @@
+body {
+  background-color: #faf9f9;
+}
+header {
+  background-image: url("../image/hederhero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+#overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#typewriterEffect h1 {
+  font-size: 3rem;
+}
+#depdownn {
+  width: 200px;
+  padding-right: 30px;
+}
+#depdownn i {
+  color: #6c757d;
+}
+
+#depdownn:hover #depdownnList {
+  opacity: 1 !important;
+}
+#about p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+}
+#cards > div > div i {
+  padding: 30px;
+  border-width: 10px !important;
+  transition: 2s;
+}
+#cards > div:hover > div i {
+  border-color: #cde1f8 !important;
+  color: white;
+  background-color: #0d6efd;
+}
+#section3 {
+  background-image: url(../image/post-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center end;
+  background-attachment: fixed;
+}
+#section4 > div > div > div {
+  overflow: hidden;
+}
+.trans-2s {
+  transition: 1s;
+}
+#section4 > div > div:hover div > img {
+  transform: scale(1.5);
+}
+#section5 {
+  height: 600px;
+  background-image: url(../image/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center end;
+  background-attachment: fixed;
+}
+#section6img > div {
+  margin-top: 10%;
+}
+
+.recW15H15 {
+  width: 20px !important;
+  height: 20px !important;
+}
+.W35H35 {
+  width: 35px !important;
+  height: 35px !important;
+}
+.w150h150 {
+  width: 150px !important;
+  height: 150px !important;
+}
+.bottom-10 {
+  bottom: 10% !important;
+}
+.t-15px {
+  top: -15px;
+}
+.bg-dark-emphasis {
+  background-color: #343a40;
+}
+.h-300px {
+  padding-top: 7%;
+  padding-bottom: 3%;
+  padding-inline: 10% !important;
+}
+.iqonhover:hover {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #cde1f8 !important;
+}
+.hover-primary:hover {
+  color: #0d6efd !important;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-nav .nav-link:not(.dropdown-toggle)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  transition: width 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
